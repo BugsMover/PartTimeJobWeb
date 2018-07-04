@@ -1,0 +1,54 @@
+create database parttime;
+
+use parttime;
+
+
+
+create table user(
+           
+username varchar(30) PRIMARY KEY,
+           
+password varchar(64) not null,
+         
+phonenumber varchar(30) ,
+        
+email varchar(30)
+ 
+);
+
+
+
+
+create table parttime( 
+id int(10) NOT NULL AUTO_INCREMENT,
+img varchar(100) DEFAULT NULL,
+title varchar(50) DEFAULT NULL,
+content Blob DEFAULT NULL,
+type varchar(10) DEFAULT NULL,
+author varchar(50) DEFAULT NULL,
+pudate varchar(50) DEFAULT NULL,
+click varchar(20) DEFAULT NULL,PRIMARY KEY (`id`))ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
+
+create table discuss(
+id int(10) NOT NULL AUTO_INCREMENT,
+type varchar(10) DEFAULT NULL,
+`discussid` varchar(10) DEFAULT NULL,
+`content` Blob DEFAULT NULL,
+`userid` varchar(50) DEFAULT NULL,
+`pudate` varchar(50) DEFAULT NULL,
+`agree` varchar(20) DEFAULT NULL,PRIMARY KEY (`id`))ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
+
+CREATE TABLE agree( 
+id int(10) NOT NULL AUTO_INCREMENT,
+type varchar(10) DEFAULT NULL ,
+agreeid varchar(10) DEFAULT NULL ,
+userid varchar(50) DEFAULT NULL,
+pudate varchar(50) DEFAULT NULL,
+PRIMARY KEY (`id`) 
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
+
+
+create table parttimeclass(
+ id int(11) PRIMARY KEY,
+clsname varchar(20) DEFAULT NULL 
+)ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;

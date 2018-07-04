@@ -1,0 +1,117 @@
+.logo{ 
+	width:100%; 
+	height:275px;
+	margin:0 auto;
+	background-color:white; 
+	background-image:url(../images/1.jpg); 
+	background-position:50% 0; 
+	background-repeat:no-repeat;
+}
+
+.type{ 
+	width:100%; 
+	height:30px; 
+    padding-top:140px;
+}
+
+.type ul{ 
+	list-style-type:none;
+	width:95%; 
+	height:30px;
+	padding-left: 5%;
+}
+
+.type ul li{
+	width:15%;
+	height:30px;
+	float:left;
+	font-size:16px;
+	font-family:"寰蒋闆呴粦";
+}
+
+.type ul li a:link{
+	color:#000000; 
+	display:block; 
+	text-decoration:none; 
+	width:100%; 
+	text-align:center; 
+	text-align:center; 
+	padding:12px;
+}
+
+.type ul li a:visited{ 
+	color:#000000;
+
+}
+
+.type ul li a:hover{ 
+	background-image:url(blank.png); 
+	background-repeat:no-repeat; 
+	background-position:bottom;
+}
+
+.search-part{ 
+	width:100%; 
+	height:50px; 
+	margin-top:25px;
+}
+
+.search .text {
+	margin-left:10%;
+	width: 60%;
+	height: 28px;
+	font-size: 16px;
+	padding: 3px 0px;
+	float: left;
+	text-indent: 15px;
+	color: #949494;
+	border: 1px solid #ececec;
+	border-radius: 3px;
+	display: block;
+	letter-spacing: 1.5px;
+}
+	
+.search .text:focus {
+	color: #656565;
+}
+	
+.search .button {
+	height: 33px;
+    width: 20%;
+    margin-top: 1px;
+	margin-left: 10px;
+	border: none;
+	cursor: pointer;
+	display: block;
+	float: left;
+	color: #fff;
+	font-size: 15px;
+	background: #d6623d;
+	border-radius: 2px;
+}
+
+.list{ width:100%; margin:0 auto;}
+.list .new{ margin:0 auto; width:944px; height:195px; background-image:url(../images/down.png); background-repeat:no-repeat; background-position:bottom;}
+.list .new .content{ height:139px; margin:8px auto; width: 944px;}
+.list .new .content .text{ height:138px; float:left; width:680px; margin-left:20px; line-height:23px;}
+.list .new .content .text a:link{display:block; text-decoration:none; color:#000000; text-align:left; height:20px;}
+.list .new .content .text a:visited{color:#FFFFFF;}
+.list .new .content .text a:hover{color:#0066FF;}
+.list .new .content .text h4{ height:40px; margin-top:0px; font-weight:100; font-size:16px; }
+.list .new .content .text .p1{ margin-top:10px; height:15px; font-size:14px;}
+.list .new .content .text .p2{ margin-top:13px; font-size:14px; letter-spacing:2px; color:#62615f;}
+.list .new .content .text a:visited{ color:#000000;}
+.list .new .content a img {width:227px; height:146px; border-radius:5px;}
+.imgdiv{width: 227px;float: left;}
+
+.footer{
+	text-align: center;
+	background-color: #f8f8f8;;
+	padding:10px 0;
+}
+
+.logdiv{
+	width: 944px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
